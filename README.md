@@ -1,6 +1,6 @@
 # int64be
 
-Encode / decode big endian unsigned 64 bit integers
+Encode / decode big endian signed 64 bit integers
 
 ```
 npm install int64be

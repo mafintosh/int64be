@@ -1,7 +1,7 @@
 {
   "name": "int64be",
   "version": "0.0.0",
-  "description": "Encode / decode big endian unsigned 64 bit integers",
+  "description": "Encode / decode big endian signed 64 bit integers",
   "main": "index.js",
   "dependencies": {},
   "devDependencies": {
