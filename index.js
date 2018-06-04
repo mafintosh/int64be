@@ -12,8 +12,8 @@ function decode (buf, offset) {
 function encode (n, buf, offset) {
   if (!buf) buf = Buffer.allocUnsafe(8)
   if (!offset) offset = 0
-  buf.writeInt32BE(Math.floor(n / 4294967296), 0)
-  buf.writeUInt32BE((n & 0xffffffff) >>> 0, 4)
+  buf.writeInt32BE(Math.floor(n / 4294967296), offset)
+  buf.writeUInt32BE((n & 0xffffffff) >>> 0, offset + 4)
   return buf
 }
 
